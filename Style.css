@@ -1,0 +1,76 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+/* Navbar */
+.navbar{
+display:flex;
+justify-content:center;
+background:black;
+padding:10px;
+}
+
+.navbar a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+/* Hero */
+.hero{
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("a.jpg");
+background-size:cover;
+color:white;
+text-align:center;
+padding:60px;
+}
+
+.hero button{
+padding:10px 20px;
+border:none;
+background:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.hero button:hover{
+background:green;
+color:white;
+}
+
+/* Sections */
+.section{
+padding:20px;
+}
+
+/* Table */
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table, th, td{
+border:1px solid black;
+padding:10px;
+}
+
+/* Footer */
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+/* Responsive */
+@media(max-width:600px){
+.navbar{
+flex-direction:column;
+text-align:center;
+}
+.hero{
+padding:30px;
+}
+}
